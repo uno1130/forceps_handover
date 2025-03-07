@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "forceps-handover"
+version = "0.1.0"
+description = ""
+authors = ["uno1130  <cnj18005@nitech.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.3"
+scipy = "^1.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
